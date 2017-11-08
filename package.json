@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "creative-education",
+  "description": "creative-education-website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Daniel Noonan <dannoonan99@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.99",
     "gatsby-link": "^1.6.24",
