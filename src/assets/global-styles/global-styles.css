@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Garamond', serif;
+  background: #FAF4F1; 
+  overflow-x: hidden; 
+}
+
+
+/* vertical-align: bottom -- this removes white gap from bottom of images */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align:bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navLink {
+  color: rgba(215, 99, 40, 1);  
+}
+
+  .background-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/contact-page.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;    
+  }
